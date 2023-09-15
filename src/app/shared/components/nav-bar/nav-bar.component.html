@@ -1,0 +1,28 @@
+<nav class="mx-40 py-10">
+    <div class="flex">
+        <a href="#">
+            <img class="h-[100%]" src="./assets/main-logo.png" alt="">
+        </a>
+        <div class="flex w-full justify-end items-center">
+            <ul class="flex gap-10">
+                <li>
+                    <button href="#">{{"HOME"|translate}}</button>
+                </li>
+                <li>
+                    <button class="scroll-down-link" (click)="goAbout()">{{"ABOUT_ME"|translate}}</button>
+                </li>
+                <li>
+                    <button href="#">{{"CONTACT_ME"|translate}}</button>
+                </li>
+
+                <li>
+                    <select [(ngModel)]="selectedLanguage" (ngModelChange)="onChange()">
+                        <option *ngFor="let lang of langList" [value]="lang" [selected]="selectedLanguage" selected>
+                            {{lang}}</option>
+                    </select>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
