@@ -25,7 +25,7 @@ export class NavBarComponent implements OnInit {
     this._languageService.changeLocale(this.selectedLanguage);
   }
 
-  goAbout() {
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  navigate(destination:string){
+    document.getElementById(destination)?.scrollIntoView({ behavior: 'smooth' });
   }
 }

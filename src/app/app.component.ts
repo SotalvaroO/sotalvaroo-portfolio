@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,6 +8,12 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'sotalvaroo-portfolio';
+  // darkMode: boolean = false;
+
+  // @HostBinding('class.dark')
+  // get mode(){
+  //   this.darkMode = true;
+  // }
 
   constructor(public translate: TranslateService) {
     this.translate.addLangs(['es', 'en']);

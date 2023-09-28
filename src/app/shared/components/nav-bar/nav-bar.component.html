@@ -9,7 +9,10 @@
                     <button href="#">{{"HOME"|translate}}</button>
                 </li>
                 <li>
-                    <button class="scroll-down-link" (click)="goAbout()">{{"ABOUT_ME"|translate}}</button>
+                    <button class="scroll-down-link" (click)="navigate('about')">{{"ABOUT_ME"|translate}}</button>
+                </li>
+                <li>
+                    <button class="scroll-down-link" (click)="navigate('projects')">{{"PROJECTS"|translate}}</button>
                 </li>
                 <li>
                     <button href="#">{{"CONTACT_ME"|translate}}</button>
