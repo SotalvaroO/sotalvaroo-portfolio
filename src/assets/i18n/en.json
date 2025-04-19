@@ -1,10 +1,73 @@
 {
   "HOME": "Home",
-  "ABOUT_ME": "About me",
-  "CONTACT_ME": "Contact me",
+  "ABOUT_ME": "About Me",
+  "CONTACT_ME": "Get In Touch",
   "PROJECTS": "Projects",
-  "BANNER": {
-    "NAME": "Hi! 👋 My name is John Doe",
-    "DESCRIPTION":"Velit officia ex amet proident voluptate excepteur proident do ullamco nulla nulla exercitation adipisicing. Aliquip culpa adipisicing fugiat culpa aute dolor eu eiusmod incididunt ipsum quis nostrud. Nulla do eiusmod esse anim dolore voluptate officia velit non. Anim voluptate consectetur ullamco adipisicing. Qui fugiat sunt duis incididunt in consectetur nostrud laboris qui cupidatat. Sint cillum Lorem proident culpa eu ipsum et Lorem fugiat aliqua voluptate."
+  "DOWNLOAD_CV": "Download CV",
+  "YOUR_NAME": "Santiago",
+
+  "HERO_SECTION": {
+    "TITLE": "Hey! 👋 I'm Santiago",
+    "DESCRIPTION": "A Software Engineer",
+    "VIEW_MY_WORK": "Mira mi trabajo"
+  },
+  "ABOUT_ME_SECTION": {
+    "TITLE": "About me",
+    "DESCRIPTION": "I am a software engineer with experience in Full Stack development. I work with Java, .NET, Angular, and databases. I apply best practices, clean architectures, and agile methodologies to create efficient solutions. 🚀"
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "Skills",
+    "DESCRIPTION": "These are the technologies and tools I work with regularly, organized by category and experience level.",
+    "FRONTEND": "Frontend Development",
+    "BACKEND": "Backend Development",
+    "DATABASES": "Databases",
+    "OTHER_SKILLS": "Other Skills"
+  },
+  "PROJECTS_SECTION": {
+    "PROJECT_1": {
+      "TITLE": "Argos",
+      "DESCRIPTION": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas, voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae?"
+    },
+    "PROJECT_2": {
+      "TITLE": "Ares Security",
+      "DESCRIPTION": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas, voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae?"
+    },
+    "PROJECT_3": {
+      "TITLE": "Pactia",
+      "DESCRIPTION": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas, voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae?"
+    }
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "Contact me",
+    "YOUR_NAME": "Santiago",
+    "YOUR_EMAIL": "sotalvaroo1999@gmail.com",
+    "YOUR_MESSAGE": "Your message",
+    "SEND_MESSAGE": "Send message",
+    "COPY_RIGHT": "© 2024 ",
+    "RIGHTS_RESERVED": ". All rights reserved."
+  },
+  "SOCIAL_MEDIA": {
+    "GITHUB": "Github",
+    "LIKEDIN": "Linkedin",
+    "INSTAGRAM": "INSTAGRAM"
+  },
+  "TECHNOLOGIES": {
+    "ANGULAR": "Angular",
+    "ANGULAR_MATERIAL": "Angular Material",
+    "C_SHARP": "C#",
+    "DOTNET": ".NET",
+    "FASTAPI": "FastAPI",
+    "HTML_CSS": "HTML/CSS",
+    "JAVASCRIPT": "JavaScript",
+    "JAVA": "Java",
+    "MYSQL": "MySQL",
+    "POSTGRESQL": "PostgreSQL",
+    "PRIME_NG": "PrimeNG",
+    "REACT": "React",
+    "SQL_SERVER": "SQL Server",
+    "SPRING_BOOT": "Spring Boot",
+    "SPRING_FRAMEWORK": "Spring Framework",
+    "TAILWIND_CSS": "Tailwind CSS",
+    "TYPESCRIPT": "TypeScript"
   }
 }

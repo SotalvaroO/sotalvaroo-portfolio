@@ -1,0 +1,100 @@
+{
+  "frontend": [
+    {
+      "skillName": "Angular",
+      "percentage": 90,
+      "icon": "./assets/tech_icons/angular.svg"
+    },
+    {
+      "skillName": "TypeScript",
+      "percentage": 90,
+      "icon": "assets/tech_icons/typescript.svg"
+    },
+    {
+      "skillName": "HTML/CSS",
+      "percentage": 90,
+      "icon": "assets/tech_icons/html.svg"
+    },
+    {
+      "skillName": "PrimeNG",
+      "percentage": 90,
+      "icon": "assets/tech_icons/primeng.svg"
+    },
+    {
+      "skillName": "Angular Material",
+      "percentage": 90,
+      "icon": "assets/tech_icons/material.svg"
+    },
+    {
+      "skillName": "Tailwind CSS",
+      "percentage": 90,
+      "icon": "assets/tech_icons/tailwind-css.svg"
+    },
+    {
+      "skillName": "JavaScript",
+      "percentage": 90,
+      "icon": "assets/tech_icons/javascript.svg"
+    },
+    {
+      "skillName": "React",
+      "percentage": 90,
+      "icon": "assets/tech_icons/react-js.svg"
+    }
+  ],
+  "backend": [
+    {
+      "skillName": "Java",
+      "percentage": 90,
+      "icon": "assets/tech_icons/java.svg"
+    },
+    {
+      "skillName": "Spring Framework",
+      "percentage": 90,
+      "icon": "assets/tech_icons/spring-framework.svg"
+    },
+    {
+      "skillName": "C#",
+      "percentage": 90,
+      "icon": "assets/tech_icons/csharp.svg"
+    },
+    {
+      "skillName": ".NET",
+      "percentage": 90,
+      "icon": "assets/tech_icons/dotnet.svg"
+    },
+    {
+      "skillName": "FastAPI",
+      "percentage": 90,
+      "icon": "assets/tech_icons/fastapi.svg"
+    }
+  ],
+  "databases": [
+    {
+      "skillName": "SQL Server",
+      "percentage": 90,
+      "icon": "assets/tech_icons/sql-server.svg"
+    },
+    {
+      "skillName": "MySQL",
+      "percentage": 90,
+      "icon": "assets/tech_icons/mysql.svg"
+    },
+    {
+      "skillName": "PostgreSQL",
+      "percentage": 90,
+      "icon": "assets/tech_icons/postgresql.svg"
+    },
+    {
+      "skillName": "MongoDB",
+      "percentage": 90,
+      "icon": "assets/tech_icons/mongodb.svg"
+    }
+  ],
+  "otherSkills": [
+    {
+      "skillName": "Git",
+      "percentage": 90,
+      "icon": "assets/tech_icons/git.svg"
+    }
+  ]
+}
