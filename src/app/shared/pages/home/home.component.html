@@ -1,146 +1,23 @@
-<app-nav-bar></app-nav-bar>
+<header class="bg-transparent backdrop-blur-md fixed w-full">
+    <app-nav-bar></app-nav-bar>
+</header>
 
-<div class="absolute top-0 z-[-1]">
-    <section>
-        <div class="flex relative h-screen">
+<div class="absolute z-[-1] h-screen top-0 w-full bg-[url(./assets/city-skyline.png)] bg-cover bg-center" style="-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+            mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);">
 
-            <img class="opacity-25 w-[100%]" src="./assets/asset-bg.webp" alt="skyline">
-            <div class="flex flex-col items-center absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%]">
-                <h1 class="text-5xl m-5 text-primary" style="font-family: 'Lobster';">{{'BANNER.NAME'|translate}}
-                </h1>
-                <p class="text-2xl text-primary">{{'BANNER.DESCRIPTION'|translate}}</p>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="mx-40 py-10 flex relative h-screen">
-
-
-            <div class="flex ">
-                <h1 class="text-5xl m-5 text-primary" style="font-family: 'Lobster';">My Skills
-                </h1>
-                <!--  -->
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Lenguajes de Programación</h3>
-                    <ul class="list-disc list-inside">
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C#</li>
-                    </ul>
-                </div>
-
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Desarrollo Web</h3>
-                    <ul class="list-disc list-inside">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                    </ul>
-                </div>
-
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Base de Datos</h3>
-                    <ul class="list-disc list-inside">
-                        <li>SQL</li>
-                        <li>MySQL</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </div>
-
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Backend y API</h3>
-                    <ul class="list-disc list-inside">
-                        <li>Express.js</li>
-                        <li>Django</li>
-                        <li>Flask</li>
-                        <li>RESTful APIs</li>
-                        <li>GraphQL</li>
-                    </ul>
-                </div>
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Control de Versiones y Herramientas de Colaboración</h3>
-                    <ul class="list-disc list-inside">
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>GitLab</li>
-                        <li>Bitbucket</li>
-                    </ul>
-                </div>
-
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Pruebas y Depuración</h3>
-                    <ul class="list-disc list-inside">
-                        <li>Jest (pruebas unitarias)</li>
-                        <li>Mocha (pruebas de integración)</li>
-                        <li>Selenium (pruebas automatizadas)</li>
-                    </ul>
-                </div>
-
-                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-                    <h3 class="text-lg font-semibold mb-2">Despliegue y Administración de Aplicaciones</h3>
-                    <ul class="list-disc list-inside">
-                        <li>AWS</li>
-                        <li>Heroku</li>
-                        <li>Netlify</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section id="projects" class="bg-gray-100 py-16">
-        <div class="flex relative h-screen">
-            <div class="container mx-auto">
-                <h2 class="text-3xl font-semibold text-center mb-8">Nuestros Proyectos</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Proyecto 1 -->
-                    <div class="relative overflow-hidden group rounded-lg">
-                        <img src="assets/main-logo.png" alt="Proyecto 1"
-                            class="w-full h-auto transition-transform transform scale-100 group-hover:scale-105 duration-300 ease-in-out rounded-lg">
-                        <div
-                            class="absolute inset-0 bg-black opacity-50 transition-opacity opacity-0 group-hover:opacity-100 duration-300 ease-in-out rounded-lg">
-                        </div>
-                        <div
-                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
-                            <a href="#" class="text-white text-lg font-semibold hover:underline">Ver Detalles</a>
-                        </div>
-                    </div>
-
-                    <!-- Proyecto 2 -->
-                    <div class="relative overflow-hidden group rounded-lg">
-                        <img src="assets/main-logo.png" alt="Proyecto 2"
-                            class="w-full h-auto transition-transform transform scale-100 group-hover:scale-105 duration-300 ease-in-out rounded-lg">
-                        <div
-                            class="absolute inset-0 bg-black opacity-50 transition-opacity opacity-0 group-hover:opacity-100 duration-300 ease-in-out rounded-lg">
-                        </div>
-                        <div
-                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
-                            <a href="#" class="text-white text-lg font-semibold hover:underline">Ver Detalles</a>
-                        </div>
-                    </div>
-
-                    <!-- Proyecto 3 -->
-                    <div class="relative overflow-hidden group rounded-lg">
-                        <img src="assets/main-logo.png" alt="Proyecto 3"
-                            class="w-full h-auto transition-transform transform scale-100 group-hover:scale-105 duration-300 ease-in-out rounded-lg">
-                        <div
-                            class="absolute inset-0 bg-black opacity-50 transition-opacity opacity-0 group-hover:opacity-100 duration-300 ease-in-out rounded-lg">
-                        </div>
-                        <div
-                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
-                            <a href="#" class="text-white text-lg font-semibold hover:underline">Ver Detalles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <app-footer></app-footer>
 </div>
+<main>
+    <section id="hero" class="h-[calc(100vh-7vh)]">
+        <app-hero></app-hero>
+    </section>
+    <section id="skills" class="py-12 md:py-24 container mx-auto">
+        <app-skills></app-skills>
+    </section>
+    <section id="projects" class="py-12 container mx-auto md:py-24">
+        <app-projects></app-projects>
+    </section>
+    <section id="contact" class="container mx-auto py-12 md:py-24">
+        <app-contact></app-contact>
+    </section>
+    <section><app-footer></app-footer></section>
+</main>

@@ -1,19 +1,34 @@
 //APP_INITIALIZER helps to load stuff before initialize
-import { APP_INITIALIZER, Injector, NgModule /* , APP_INITIALIZER */ } from '@angular/core';
+import {
+  APP_INITIALIZER,
+  Injector,
+  NgModule /* , APP_INITIALIZER */,
+} from '@angular/core';
 import { AppComponent } from './app.component';
-import { ApplicationInitializerFactory, HttpLoaderFactory } from './translation.config';
+import {
+  ApplicationInitializerFactory,
+  HttpLoaderFactory,
+} from './translation.config';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
-import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
+import {
+  TranslateModule,
+  TranslateLoader,
+  TranslateService,
+} from '@ngx-translate/core';
+import { UiModule } from './ui/ui.module';
+import { NgIconsModule } from '@ng-icons/core';
+import { octDownload } from '@ng-icons/octicons';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    UiModule,
     SharedModule,
     HttpClientModule,
     BrowserAnimationsModule,

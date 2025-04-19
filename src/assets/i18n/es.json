@@ -3,8 +3,71 @@
   "ABOUT_ME": "Sobre mi",
   "CONTACT_ME": "Contáctame",
   "PROJECTS": "Proyectos",
-  "BANNER": {
-    "NAME": "Hola! 👋 Mi nombre es John Doe",
-    "DESCRIPTION":"Ex amet nostrud incididunt veniam amet adipisicing aliqua cupidatat dolor nostrud consequat in. Ullamco aliquip enim dolor esse amet est. Laborum cillum veniam et in ad do eiusmod ex ipsum officia. Labore pariatur velit quis nulla adipisicing dolore nulla ex minim aliqua adipisicing fugiat nisi. Labore amet reprehenderit sit elit enim tempor ea non proident nulla."
+  "DOWNLOAD_CV": "Descargar CV",
+  "YOUR_NAME": "Santiago",
+
+  "HERO_SECTION": {
+    "TITLE": "Hola! 👋 soy Santiago",
+    "DESCRIPTION": "Un ingeniero de software interesado en aprender.",
+    "VIEW_MY_WORK": "Mira mi trabajo"
+  },
+  "ABOUT_ME_SECTION": {
+    "TITLE": "Sobre mi",
+    "DESCRIPTION": "Soy ingeniero de sistemas con experiencia en desarrollo Full Stack. Trabajo con Java, .NET, Angular y bases de datos. Aplico buenas prácticas, arquitecturas limpias y metodologías ágiles para crear soluciones eficientes. 🚀"
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "Habilidades",
+    "DESCRIPTION": "Estas son las tecnologías y herramientas con las que trabajo regularmente, organizadas por categoría y nivel de experiencia.",
+    "FRONTEND": "Desarrollo Frontend",
+    "BACKEND": "Desarrollo Backend",
+    "DATABASES": "Bases de Datos",
+    "OTHER_SKILLS": "Otras Skills"
+  },
+  "PROJECTS_SECTION": {
+    "PROJECT_1": {
+      "TITLE": "Argos",
+      "DESCRIPTION": "voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas"
+    },
+    "PROJECT_2": {
+      "TITLE": "Ares Security",
+      "DESCRIPTION": "voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas"
+    },
+    "PROJECT_3": {
+      "TITLE": "Pactia",
+      "DESCRIPTION": "voluptatum odio molestiae ad dolores! Cum impedit temporibus a corrupti quae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quis est cum ratione. Pariatur suscipit eum corrupti obcaecati voluptas"
+    }
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "Contáctame",
+    "YOUR_NAME": "Tu nombre",
+    "YOUR_EMAIL": "Tu Email",
+    "YOUR_MESSAGE": "Tu mensaje",
+    "SEND_MESSAGE": "Enviar Mensaje",
+    "COPY_RIGHT": "© 2024 ",
+    "RIGHTS_RESERVED": ". Todos los derechos reservados."
+  },
+  "SOCIAL_MEDIA": {
+    "GITHUB": "Github",
+    "LIKEDIN": "Linkedin",
+    "INSTAGRAM": "INSTAGRAM"
+  },
+  "TECHNOLOGIES": {
+    "ANGULAR": "Angular",
+    "ANGULAR_MATERIAL": "Angular Material",
+    "C_SHARP": "C#",
+    "DOTNET": ".NET",
+    "FASTAPI": "FastAPI",
+    "HTML_CSS": "HTML/CSS",
+    "JAVASCRIPT": "JavaScript",
+    "JAVA": "Java",
+    "MYSQL": "MySQL",
+    "POSTGRESQL": "PostgreSQL",
+    "PRIME_NG": "PrimeNG",
+    "REACT": "React",
+    "SQL_SERVER": "SQL Server",
+    "SPRING_BOOT": "Spring Boot",
+    "SPRING_FRAMEWORK": "Spring Framework",
+    "TAILWIND_CSS": "Tailwind CSS",
+    "TYPESCRIPT": "TypeScript"
   }
 }

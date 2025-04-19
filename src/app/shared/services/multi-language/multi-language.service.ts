@@ -16,7 +16,7 @@ export class MultiLanguageService {
 
   changeLocale(locale: string) {
     this.translate.use(locale);
-    this._localeEvent$.next(this.getCurrentLanguage());
+    this._localeEvent$.next(locale);
   }
 
   getCurrentLanguage() {

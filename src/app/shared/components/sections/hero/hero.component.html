@@ -1,0 +1,29 @@
+<section id="self-introduction" class="flex flex-row mx-auto container pt-[12rem]">
+    <article class="flex flex-col items-start justify-center text-start w-full">
+        <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none my-5">
+            {{'HERO_SECTION.TITLE'|translate}}
+        </h1>
+        <p class="text-2xl text-primary my-5">{{'HERO_SECTION.DESCRIPTION'|translate}}</p>
+        <div class="flex gap-3">
+            <custom-button
+                class="bg-slate-900 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-slate-700 outline outline-1 outline-slate-300 my-5"
+                size="sm">{{'HERO_SECTION.VIEW_MY_WORK'|translate}}</custom-button>
+            <custom-button
+                class="bg-white px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-slate-200 outline outline-1 outline-slate-700 my-5"
+                size="sm">{{'CONTACT_SECTION.TITLE'|translate}}</custom-button>
+        </div>
+    </article>
+
+    <figure class="w-full flex justify-center flex-col items-center">
+        <img alt="Profile" loading="lazy" width="600" height="600" decoding="async" data-nimg="1"
+            class="mx-auto aspect-square overflow-hidden rounded-full object-cover object-center"
+            style="color:transparent" src="./assets/my_image.jpeg">
+    </figure>
+
+</section>
+
+<section id="about" class="mx-auto container">
+    <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">{{'ABOUT_ME_SECTION.TITLE'|translate}}</h2>
+    <p class="mt-4 max-w-[700px] text-muted-foreground md:text-xl">{{'ABOUT_ME_SECTION.DESCRIPTION'|translate}}</p>
+
+</section>

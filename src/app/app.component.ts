@@ -1,5 +1,6 @@
 import { Component, HostBinding } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { ThemeService } from './shared/services/theme/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -8,16 +9,14 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'sotalvaroo-portfolio';
-  // darkMode: boolean = false;
 
-  // @HostBinding('class.dark')
-  // get mode(){
-  //   this.darkMode = true;
-  // }
+  @HostBinding('class.dark')
+  public darkMode: boolean = false;
 
-  constructor(public translate: TranslateService) {
+  constructor(private translate: TranslateService, private themeService: ThemeService) {
     this.translate.addLangs(['es', 'en']);
     this.translate.setDefaultLang('es');
+    this.darkMode = this.themeService.mode;
     translate.use('es');
   }
 }
